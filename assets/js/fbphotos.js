@@ -25,7 +25,7 @@ $(document).ready(function() {
     //build each photo for the page
     $.each(photoObjects, (idx, val) => {
       let caption = val.name || '🐱';
-      if (caption.split('').length > 29) caption = caption.slice(0,30) + '...';
+      if (caption.split('').length > 90) caption = caption.slice(0,94) + '...';
       const link = val.link || '#';
       // const photoRef = val.webp_images[1].source || "https://scontent.xx.fbcdn.net/v/t1.0-0/p75x225/17202775_1320112801416816_1371338858912183462_n.jpg.webp?oh=e39c5cd8f2614b90a58e94f5b006e54c&oe=595F6599";
       const thumbnailRef = val.images[1].source || 'https://scontent.fsnc1-2.fna.fbcdn.net/v/t1.0-9/426278_225826957512078_532545718_n.jpg?oh=ebd7f9df620488f8651cd44d9a32e8c2&oe=598050EC';

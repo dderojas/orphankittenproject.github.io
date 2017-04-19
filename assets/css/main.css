@@ -2464,10 +2464,15 @@
 
 	.work-item {
 		margin: 0 0 2em 0;
+		/*background-color: red;*/
+		height: 390px;
+		text-align: center;
 	}
 
 		.work-item .image {
 			margin: 0 0 1.5em 0;
+			height: 300px;
+			max-width: 350px;
 		}
 
 		.work-item h3 {
@@ -2477,8 +2482,9 @@
 
 		.work-item p {
 			font-size: 0.8em;
-			line-height: 1.5em;
+			line-height: .75em;
 			margin: 0;
+
 		}
 
 /* Header */
