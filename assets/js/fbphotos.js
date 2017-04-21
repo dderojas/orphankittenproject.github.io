@@ -32,7 +32,7 @@ $(document).ready(function() {
 
       //build the photo article
       let postHTML = '<article class="6u 12u$(xsmall) work-item">'
-      postHTML += '<a target='_blank' href=' + link + ' class="image fit thumb"><img src="' + thumbnailRef + '" alt="" style="max-width:100%; max-height:320px;"/></a>';
+      postHTML += '<a target="_blank" href=' + link + ' class="image fit thumb"><img src="' + thumbnailRef + '" alt="" style="max-width:100%; max-height:320px;"/></a>';
       postHTML += '<h3> ' + caption + '</h3>';
       // postHTML += '<p>' + caption + '</p>';
       postHTML += '</article>';
