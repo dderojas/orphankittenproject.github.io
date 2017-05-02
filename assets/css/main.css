@@ -2338,7 +2338,6 @@
 
 	input[type="submit"],
 	input[type="reset"],
-	input[type="button"],
 	.button {
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -2365,6 +2364,12 @@
 		white-space: nowrap;
 		font-size: 1em;
 		margin-bottom: 10px;
+	}
+
+	input[type="button"] {
+		background-color: transparent;
+		border: solid 3px #efefef;
+		color: black !important;
 	}
 
 		input[type="submit"]:hover,
